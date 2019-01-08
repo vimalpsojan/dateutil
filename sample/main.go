@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	from := time.Date(2018, 1, 31, 5, 0, 0, 0, time.UTC)
-	to := time.Date(2019, 2, 1, 1, 30, 59, 0, time.UTC)
+	from := time.Date(1993, 4, 8, 22, 50, 42, 0, time.UTC)
+	to := time.Date(2019, 1, 9, 00, 40, 39, 0, time.UTC)
 	checkDate(from, to)
 }
 
